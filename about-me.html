@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ramita Indurkhya's Portfolio | About Me</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Ramita's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./about-me.html">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--Head-->
+
+    <section class="docs-head text-center bg-primary py-3">
+        <div class="container">
+            <div>
+                <h1 class="xl">About Me</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--About Me Section-->
+
+    <section class="about-me bg-light py-3">
+        <div class="container grid grid-2">
+            <img src="./images/me.jpg" alt="me">
+            <p>Ramita has been designing websites for quite a few years on her own. When she was younger, she would frequently build play websites for fun on hosting sites like Freewebs and Piczo. Later on as she was pursuing music, she was prompted to make a website that served as a portfolio and decided to do it herself.
+            <br><br>
+            Several years later, she re-kindled her interest for building websites and signed up for Codeacademy, learning HTML and CSS for the first time. She enjoyed it enough to sign up for the Full Stack Web Development major at Pasadena City College. She is continuing her journey from web design to development and has a great interest in Front End Engineering.
+            </p>
+        </div>
+    </section>
+
+    <!--Contact Form-->
+
+    <section class="contact-form bg-primary py-5">
+        <div class="form">
+            <form id="contact" action="http://example.com/about-me" method="post">
+                <fieldset id="contact">
+                    <legend class="md">Contact Me</legend>
+
+                    <div class="formRow">
+                        <label for="name">Name:</label>
+                        <input name="name" id="name" type="text" placeholder="Enter Your Name" required>
+                    </div>
+
+                    <div class="formRow">
+                        <label for="email">Email:</label>
+                    <input name="email" id="email" type="email" placeholder="example@example.com" required>
+                    </div>
+
+                    <div class="formRow">
+                        <label for="inquiry">Let me know your thoughts!</label>
+                    </div>
+
+                    <div class="formRow">
+                        <textarea name="inquiry" id="inquiry" placeholder="Please enter your inquiry" required></textarea>
+                    </div>
+                    <input id="submit" type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <footer class="footer bg-dark py-3">
+        <div class="container flex">
+            <div>
+                <h1>Ramita's Portfolio</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./projets.html">Projects</a></li>
+                    <li><a href="./about-me.html">About Me</a></li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href="https://github.com/ramitaarora"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+
+            <div>
+                <p>Copyright &copy; 2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
